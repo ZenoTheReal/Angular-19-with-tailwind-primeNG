@@ -64,6 +64,12 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {
+            "host": "0.0.0.0",
+            "allowedHosts": [
+              "e6a17d31-663b-46d4-9219-df1f476707c1-00-13yxv46ve2cju.pike.replit.dev"
+            ]
+          },
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
@@ -98,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f48b59e5-7d6d-482b-9d0c-d6dcc2a28feb"
   }
 }

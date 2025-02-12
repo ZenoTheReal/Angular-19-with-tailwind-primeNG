@@ -1,0 +1,12 @@
+modules = ["nodejs-20", "web"]
+run = "ng s -o"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "ng s -o"]
+
+[[ports]]
+localPort = 4200
+externalPort = 8080
